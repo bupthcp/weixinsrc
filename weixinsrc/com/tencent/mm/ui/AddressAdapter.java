@@ -37,8 +37,8 @@ public class AddressAdapter extends MListAdapter
         b = (MMActivity)context;
         f = s;
         g = s1;
-        android.content.res.XmlResourceParser xmlresourceparser = context.getResources().getXml(0x7f08001c);
-        android.content.res.XmlResourceParser xmlresourceparser1 = context.getResources().getXml(0x7f08001d);
+        android.content.res.XmlResourceParser xmlresourceparser = context.getResources().getXml(0x7f08001c);//mm_list_textcolor_one
+        android.content.res.XmlResourceParser xmlresourceparser1 = context.getResources().getXml(0x7f08001d);//mm_list_textcolor_spuser
         o = ColorStateList.createFromXml(context.getResources(), xmlresourceparser);
         p = ColorStateList.createFromXml(context.getResources(), xmlresourceparser1);
 _L2:
@@ -76,10 +76,10 @@ _L1:
             s = "#";
         else
         if(contact.r() == 33)
-            s = b.getString(0x7f0a019b);
+            s = b.getString(0x7f0a019b); //settings_plugins 系统插件
         else
         if(contact.r() == 43)
-            s = b.getString(0x7f0a036d);
+            s = b.getString(0x7f0a036d);//room_head_name 群组
         else
             s = String.valueOf((char)contact.r());
         return s;
@@ -446,7 +446,7 @@ label0:
         contact1 = (Contact)getItem(i1);
         if(view == null)
         {
-            view = View.inflate(b, 0x7f030042, null);
+            view = View.inflate(b, 0x7f030042, null); //contact_item
             viewholder = new ViewHolder();
             viewholder.b = (TextView)view.findViewById(0x7f0700fc);
             viewholder.a = (ImageView)view.findViewById(0x7f0700fe);

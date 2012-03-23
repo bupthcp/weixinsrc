@@ -101,7 +101,7 @@ public class AlphabetScrollBar extends View
                 f = 0F;
             if(f > (float)getMeasuredHeight())
                 f = getMeasuredHeight();
-            setBackgroundDrawable(c.a(0x7f020266));
+            setBackgroundDrawable(c.a(0x7f020266));//scrollbar_bg
             float f1 = f;
             float f2 = 1.2F * e;
             int k;
