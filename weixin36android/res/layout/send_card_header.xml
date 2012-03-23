@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="20.0dip" android:paddingBottom="10.0dip" style="@style/RoomInfoListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/BasicTextSize" android:id="@id/sendcard_show_card" android:layout_height="wrap_content" android:text="cardCARDCARD" style="@style/MMFontPreferenceSmall" />
+</LinearLayout>

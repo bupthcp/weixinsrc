@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/mm_listitem" android:layout_height="50.0dip" style="@style/MMListItem"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:gravity="center" android:id="@id/city_select_province_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mm_submenu" />
+        <TextView android:id="@id/city_select_province_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontPreferenceLarge" />
+    </LinearLayout>
+</LinearLayout>

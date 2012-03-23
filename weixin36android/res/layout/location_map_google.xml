@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mmtitle_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/mm_title_btn_text" android:gravity="center" android:id="@id/qrcode_back_btn" android:background="@drawable/mm_title_btn_back" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="70.0dip" android:text="@string/app_back" />
+            <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/location_info" android:singleLine="true" android:shadowColor="#ff404040" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/qrcode_my_code_btn" android:background="@drawable/mm_title_btn_right" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/MMTitleButton">
+                <ImageView android:id="@id/title_btn_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/myqrcode_menu_btn_icon" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.maps.MapView android:id="@id/g_mapView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="05iGkFSm2uMe-_6wzcT2vhVQUfSWfJK8sRGXRVQ" />
+            <RelativeLayout android:id="@id/control_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="25.0dip">
+                <LinearLayout android:id="@id/location_my_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                        <ImageButton android:id="@id/location_here" android:background="@drawable/mm_trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/location_arrows" />
+                        <ImageView android:background="@drawable/location_arrows_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/locaion_arrow_tips_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/location_my_ll" android:layout_centerInParent="true">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/location_load_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="5.0dip" style="?android:attr/progressBarStyleSmallInverse" />
+                    <TextView android:id="@id/location_tips" android:background="@drawable/location_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:minWidth="40.0dip" android:text="" />
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

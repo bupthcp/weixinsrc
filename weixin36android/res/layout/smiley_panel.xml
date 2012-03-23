@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/smiley_panel_display_view" android:background="@drawable/smiley_panel_bg" android:layout_width="fill_parent" android:layout_height="177.0dip">
+        <com.tencent.mm.ui.MMFlipper android:gravity="center" android:id="@id/smiley_panel_flipper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+        <com.tencent.mm.ui.chatting.DotView android:gravity="center" android:orientation="horizontal" android:id="@id/smiley_panel_dot" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@id/smiley_panel_btn_group" android:background="@drawable/smiley_tab_group_bg" android:layout_width="fill_parent" android:layout_height="38.0dip">
+        <RadioButton android:id="@id/smiley_panel_def_btn" android:background="@drawable/smiley_tab_bg" android:checked="true" android:text="@string/smiley_panel_def" android:shadowColor="#ffc0c0c0" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" style="@style/MMStyleTabButton" />
+        <RadioButton android:id="@id/smiley_panel_emoji_btn" android:background="@drawable/smiley_tab_bg" android:checked="false" android:text="@string/smiley_panel_emoji" style="@style/MMStyleTabButton" />
+        <RadioButton android:id="@id/smiley_panel_custom_btn" android:background="@drawable/smiley_tab_bg" android:checked="false" android:text="@string/smiley_panel_custom" style="@style/MMStyleTabButton" />
+        <RadioButton android:id="@id/smiley_panel_art_btn" android:background="@drawable/smiley_tab_bg_right" android:checked="false" android:text="@string/smiley_panel_art" style="@style/MMStyleTabButton" />
+    </RadioGroup>
+</LinearLayout>

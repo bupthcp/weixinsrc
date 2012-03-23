@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/mmfooter_bg_white" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_height="wrap_content" android:minHeight="50.0dip" style="@style/MMFooter">
+        <ImageButton android:id="@id/chatting_mode_btn" android:background="@null" android:paddingTop="3.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chatting_setmode_msg_btn" android:minWidth="0.0dip" style="@style/MMButton" />
+        <ImageButton android:id="@id/chatting_attach_btn" android:background="@null" android:paddingTop="3.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/type_select_btn" android:minWidth="0.0dip" style="@style/MMButton" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/text_panel_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.MMEditText android:id="@id/chatting_content_et" android:background="@drawable/chat_edit" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:maxHeight="80.0dip" android:minHeight="41.0dip" android:hint="@null" android:singleLine="false" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textShortMessage" style="@style/MMEditText" />
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:gravity="top" android:id="@id/chatting_wordcount_tv" android:visibility="gone" style="@style/ChattingUIWordCount" />
+                <Button android:id="@id/chatting_send_btn" android:layout_width="wrap_content" android:layout_height="39.0dip" android:minWidth="50.0dip" android:text="@string/chatting_send" style="@style/MMSendButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/LargeTextSize" android:textColor="#ffffffff" android:id="@id/voice_record_bt" android:background="@drawable/voice_rcd_btn_nor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:maxHeight="80.0dip" android:minHeight="41.0dip" android:text="@string/chatfooter_presstorcd" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_weight="1.0" android:soundEffectsEnabled="true" />
+    </LinearLayout>
+    <com.tencent.mm.ui.chatting.SmileyPanel android:id="@id/chatting_smiley_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/qrcode_mask" android:background="@drawable/qr_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/qrcode_scan_line" android:background="@drawable/qrcode_scan_line" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/land_left_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textColor="@color/mm_title_btn_text" android:gravity="center" android:id="@id/qrcode_back_btn" android:background="@drawable/mm_title_btn_back" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:text="@string/app_back" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/qrcode_my_code_btn" android:background="@drawable/land_left_bg" android:padding="5.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/SmallerTextSize" android:textColor="@color/mm_title_btn_text" android:gravity="center" android:background="@drawable/mm_title_btn_right" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="62.0dip" android:layout_height="wrap_content" android:text="@string/self_qrcode_land_btn_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/SmallerTextSize" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qrcode_tip_in_camera" />
+            <TextView android:textSize="@dimen/SmallerTextSize" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qrcode_tip_in_discount" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/mmfooter_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textColor="@color/mm_title_btn_text" android:id="@id/qrcode_select_btn" android:background="@drawable/mm_title_btn_normal" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:text="@string/qrcode_select_from_photo_land" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/qrcode_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/information_highlight" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.ui.video.VideoView android:id="@id/videoplayer_view" android:layout_width="224.0dip" android:layout_height="288.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/LargeTextSize" android:id="@id/videoplayer_time_left" android:background="@drawable/mm_text_bg_trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignTop="@id/videoplayer_view" android:layout_alignRight="@id/videoplayer_view" />
+        <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/videoplayer_length" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/videoplayer_view" android:layout_alignRight="@id/videoplayer_view" />
+        <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/videoplayer_size" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/videoplayer_length" android:layout_below="@id/videoplayer_view" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/video_play_btn" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_play_btn" />
+    </LinearLayout>
+</FrameLayout>

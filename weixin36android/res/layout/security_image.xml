@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.SecurityImage android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+        <LinearLayout android:gravity="bottom" android:padding="5.0dip" style="@style/MMLine">
+            <FrameLayout android:background="#ff000000" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40.0dip">
+                <ImageView android:id="@id/authcode_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:minHeight="40.0dip" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/refresh_mini_pb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+            </FrameLayout>
+            <View style="@style/MMSplit" />
+            <Button android:id="@id/authcode_change_btn" android:minHeight="40.0dip" android:text="@string/regbyqq_secimg_change" android:singleLine="true" style="@style/HyperText" />
+        </LinearLayout>
+        <View style="@style/MMSplit" />
+        <EditText android:id="@id/authcode_et" android:hint="@string/regbyqq_secimg_title" style="@style/MMLineEditText" />
+    </LinearLayout>
+</com.tencent.mm.ui.SecurityImage>

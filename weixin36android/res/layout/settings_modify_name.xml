@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/settings_modify_name_new_name_et" style="@style/MMLineEditText" />
+            <View style="@style/MMLabelSplit" />
+            <TextView android:id="@id/settings_modify_name_tip" android:text="@string/settings_modify_name_tip" android:layout_weight="1.0" style="@style/MMLineLabel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

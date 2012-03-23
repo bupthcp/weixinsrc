@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nav_title" android:background="@drawable/mmtitle_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMImageButton android:id="@id/title_btn4" android:background="@drawable/mm_title_btn_right" android:focusable="true" style="@style/MMTitleButton" />
+    <TextView android:id="@id/title" android:text="@string/app_name" android:layout_weight="1.0" style="@style/MMTitle" />
+    <com.tencent.mm.ui.MMImageButton android:id="@id/readmail_prev_btn" android:background="@drawable/mail_prev_btn" android:focusable="true" android:visibility="visible" android:minWidth="40.0dip" style="@style/MMTitleButton" />
+    <com.tencent.mm.ui.MMImageButton android:id="@id/readmail_next_btn" android:background="@drawable/mail_next_btn" android:focusable="true" android:visibility="visible" android:minWidth="40.0dip" style="@style/MMTitleButton" />
+</LinearLayout>

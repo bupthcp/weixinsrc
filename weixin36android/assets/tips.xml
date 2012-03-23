@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tips>
+	<tip
+		id="setavatar"
+		platform="android"
+		device="android"
+		enableclose="false"
+		transparentclose="true">
+		<images>
+			<image
+				type="LDPI_P">tips/default/setavatar_mdpi_potrait.jpg</image>
+			<image
+				type="HDPI_P">tips/default/setavatar_hdpi_potrait.jpg</image>
+			<image
+				type="MDPI_P">tips/default/setavatar_mdpi_potrait.jpg</image>
+			<image
+				type="LDPI_L">tips/default/setavatar_mdpi_landscape.jpg</image>
+			<image
+				type="HDPI_L">tips/default/setavatar_hdpi_landscape.jpg</image>
+			<image
+				type="MDPI_L">tips/default/setavatar_mdpi_landscape.jpg</image>
+		</images>
+		<url>weixin://setting/setheadimage</url>
+	</tip>
+</tips>
+

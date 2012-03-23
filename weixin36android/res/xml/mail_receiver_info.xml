@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/mail_receiver_info_name" android:key="mail_receiver_info_name" />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/mail_receiver_info_addr" android:key="mail_receiver_info_addr" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/install_btn" android:title="@string/plugin_qqmail_addr_profile_compose" android:key="mail_compose_btn" />
+</PreferenceScreen>

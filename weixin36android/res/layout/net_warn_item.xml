@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.NetWarnView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nwview" android:background="@drawable/net_warn_detail_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/nw_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:src="@drawable/net_warn_icon" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/BasicTextSize" android:id="@id/nw_detail" android:layout_weight="1.0" style="@style/MMFontPreferenceLarge" />
+        <TextView android:textSize="@dimen/SmallerTextSize" android:id="@id/nw_detail_tip" android:layout_weight="1.0" style="@style/MMFontPreferenceSmall" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/nw_prog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" style="?android:attr/progressBarStyleSmall" />
+    <TextView android:gravity="center_vertical" android:id="@id/nw_btn" android:background="@drawable/net_warn_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_warn_show_page" />
+</com.tencent.mm.ui.NetWarnView>

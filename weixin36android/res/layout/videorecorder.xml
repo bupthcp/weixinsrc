@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/videorecordview" android:visibility="visible" android:layout_width="320.0px" android:layout_height="240.0px" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/videorecordstart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="录制" />
+        <Button android:id="@id/videorecordstop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="停止" android:layout_toRightOf="@id/videorecordstart" />
+    </RelativeLayout>
+</LinearLayout>

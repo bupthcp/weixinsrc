@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MMListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/skin_thumb" android:padding="6.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <TextView android:id="@id/skin_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+    <ProgressBar android:id="@id/skin_download_pb" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+    <TextView android:id="@id/skin_download_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" style="@style/MMFontTipInList" />
+    <TextView android:id="@id/skin_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+    <TextView android:id="@id/skin_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+    <Button android:id="@id/skin_ctrl_btn" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_marginLeft="6.0dip" style="@style/WrapButtonStyleOne" />
+    <ImageView android:id="@id/skin_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_enable" />
+</LinearLayout>

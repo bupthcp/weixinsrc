@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.setting.HeadImgPreference android:layout="@layout/mm_preference" android:title="@string/settings_change_avatar" android:key="settings_change_avatar" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_name" android:key="settings_name" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.DialogPreference android:layout="@layout/mm_preference" android:title="@string/settings_sex" android:key="settings_sex" android:widgetLayout="@layout/mm_preference_screen" mm:entries="@array/sex" mm:entryValues="@array/sex_id" />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_district" android:key="settings_district" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_tweibo" android:key="settings_tweibo" />
+</PreferenceScreen>

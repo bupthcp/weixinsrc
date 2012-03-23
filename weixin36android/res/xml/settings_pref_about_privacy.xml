@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_need_verify" android:key="settings_need_verify" />
+    <PreferenceCategory />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_auto_add_reply_friends" android:key="settings_add_friend_by_reply" />
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/settings_auto_add_reply_friends_tip" android:key="settings_add_friend_by_reply_tip" />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_find_me_by_QQ" android:key="settings_find_me_by_QQ" />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_find_me_by_mobile" android:key="settings_find_me_by_mobile" />
+    <PreferenceCategory />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_recommend_to_QQfriends" android:key="settings_recommend_to_QQfriends" />
+    <PreferenceCategory />
+    <CheckBoxPreference android:persistent="false" android:layout="@layout/mm_preference" android:title="@string/contact_info_qmessage_display_weixin_online" android:key="settings_weixin_qq_online" />
+    <PreferenceCategory />
+</PreferenceScreen>

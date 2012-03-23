@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/surface_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/videorecord_start_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_recorder_start_hint" />
+        <TextView android:id="@id/videorecord_time_limit_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:id="@id/videorecord_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="取消" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/videorecord_control_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:src="@drawable/video_download_btn_nor" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/videorecord_send" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/app_send" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <Button android:id="@id/videorecord_save_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/app_save" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

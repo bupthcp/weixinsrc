@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/lightgrey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/MMLine" />
+    <Button android:textColor="@color/mm_style_two_btn_text" android:id="@id/clearLocation_btn" android:background="@drawable/btn_style_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="40.0dip" android:text="@string/contact_info_lbs_clear_info" />
+    <TextView android:textSize="@dimen/LargeTextSize" android:textColor="@color/mm_style_two_btn_text" android:gravity="top|center" android:id="@id/clearLocation_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:minHeight="180.0dip" android:text="@string/contact_info_clear_location_tip" />
+</LinearLayout>

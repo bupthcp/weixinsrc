@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MMBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:enabled="false" android:id="@id/share_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_content" android:singleLine="false" android:editable="false" style="@style/MMEditText" />
+</LinearLayout>

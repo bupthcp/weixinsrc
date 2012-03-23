@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <Button android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/qqmail_single_addr_btn" android:background="@drawable/mail_addr_btn_bg" android:focusable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="yihengliu" android:singleLine="true" android:drawableRight="@drawable/mail_sender_btn_arrow" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/qqmail_addradapter_dropdown_item_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/qqmail_addradapter_dropdown_item_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/qqmail_addradapter_dropdown_item_addr_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/plugin_qqmail_compose_attach_item_ll" android:background="@drawable/mail_attach_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" style="@style/plugin_qqmail_compose_item_style">
+            <TextView android:textColor="@color/black" android:id="@id/plugin_qqmail_compose_attach_item_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <ProgressBar android:id="@id/plugin_qqmail_compose_attach_item_uploading_pb" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            <TextView android:textColor="#ffff0000" android:id="@id/plugin_qqmail_compose_attach_upload_failed_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plugin_qqmail_attach_upload_failed" />
+            <ImageView android:id="@id/plugin_qqmail_compose_attach_item_reupload_iv" android:visibility="gone" android:src="@drawable/qqmail_compose_attach_reupload_btn" style="@style/plug_qqmail_compose_add_style" />
+            <ImageView android:id="@id/plugin_qqmail_compose_attach_item_delete_iv" android:padding="5.0dip" android:paddingRight="0.0dip" android:src="@drawable/mail_compose_delete_btn" style="@style/plug_qqmail_compose_add_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

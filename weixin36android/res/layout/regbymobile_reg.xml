@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout android:paddingTop="10.0dip" style="@style/MMBody">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" style="@style/MMBody">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/country_code_ll" android:background="@drawable/btn_mobile_phone_select" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/country_code" android:background="@drawable/mm_trans" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="70.0dip" android:text="@string/country_normal_code" style="@style/MMEditText" />
+                        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/country_name" android:background="@drawable/mm_trans" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/country_normal_name" style="@style/MMLineEditText" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/lightgrey" android:layout_width="1.0dip" android:layout_height="43.0dip" android:layout_marginLeft="76.0dip" />
+                        <View android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="right|center" android:background="@drawable/reg_by_mobile" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View style="@style/MMLabelSplit" />
+                <EditText android:id="@id/regbymobilereg_mobile_et" android:hint="@string/regbymoile_reg_addr_hint" android:inputType="phone" style="@style/MMLineEditText" />
+            </LinearLayout>
+            <View style="@style/MMLabelSplit" />
+            <LinearLayout android:gravity="left" android:orientation="horizontal" style="@style/MMLine">
+                <CheckBox android:id="@id/agree_cb" android:checked="true" android:text="@string/license_agree" style="@style/RegUICheckBox" />
+                <Button android:id="@id/agree_btn" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" android:text="@string/license_detail" style="@style/RegUIHyperText" />
+            </LinearLayout>
+            <View style="@style/MMLabelSplit" />
+            <LinearLayout android:orientation="horizontal" style="@style/MMBlock">
+                <Button android:layout_gravity="bottom|left|center" android:id="@id/login_tip" style="@style/RegUIHyperText" />
+                <View android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="1.0" />
+                <Button android:textColor="@color/white" android:gravity="center" android:id="@id/login_btn" android:background="@drawable/btn_style_one" android:layout_width="90.0dip" android:text="@string/app_nextstep" style="@style/MMLineActionButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/chatting_time_tv" style="@style/ChattingUISplit" />
+    <LinearLayout style="@style/ChattingUIContent">
+        <ImageView android:id="@id/chatting_avatar_iv" android:focusable="false" android:visibility="gone" style="@style/ChattingUIAvatarFrom" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/chatfrom_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/chatting_user_tv" android:visibility="gone" style="@style/ChattingUISenderText" />
+            <ImageView android:id="@id/chatting_content_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

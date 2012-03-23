@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.IconPreference android:layout="@layout/mm_preference" android:title="@string/settings_invite_qq_friends" android:key="settings_invite_qq_friends" />
+    <com.tencent.mm.ui.IconPreference android:layout="@layout/mm_preference" android:title="@string/settings_recommend_by_mail" android:key="settings_recommend_by_mail" />
+    <com.tencent.mm.ui.IconPreference android:layout="@layout/mm_preference" android:title="@string/settings_recommend_by_mb" android:key="settings_recommend_by_mb" />
+    <com.tencent.mm.ui.IconPreference android:layout="@layout/mm_preference" android:title="@string/settings_invite_mobile_friends" android:key="settings_invite_mobile_friends" />
+</PreferenceScreen>

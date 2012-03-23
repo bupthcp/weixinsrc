@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/regbymobilereg_nick_et" android:hint="@string/regbymobile_reg_setnick_fill_nick" style="@style/MMLineEditText" />
+            <View style="@style/MMSplit" />
+            <TextView android:text="@string/regbymobile_reg_setnick_tip" android:layout_weight="1.0" style="@style/MMLineLabel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

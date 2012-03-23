@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/mm_listitem" android:paddingRight="2.0dip" style="@style/MMListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/inviteqqfriends_nickname_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTitleInList" />
+        </LinearLayout>
+        <TextView android:id="@id/inviteqqfriends_email_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:id="@id/invite_friends_open_already_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_invite_friends_open_already" style="@style/MMFontPreferenceSmall" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="right|center" android:id="@id/inviteqqfriends_send_cb" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

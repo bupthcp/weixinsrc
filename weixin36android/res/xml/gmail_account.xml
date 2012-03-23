@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.ImagePreference android:layout="@layout/mm_preference" android:key="gmail_account_image" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/gmail_account_tip" android:key="gmail_account_tip" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/gmail_account_myaccount" android:key="gmail_account_myaccount" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory android:key="gmail_account_cat" />
+    <Preference android:layout="@layout/install_btn" android:title="@string/gmail_account_set_account" android:key="gmail_account_set_account" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/logout_btn" android:title="@string/gmail_account_delete_account" android:key="gmail_account_delete_account" android:widgetLayout="@layout/mm_preference_screen" />
+</PreferenceScreen>

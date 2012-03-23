@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/qqmail_file_explorer_list_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/qqmail_file_explorer_tab_rg" android:background="@drawable/mmfooter_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="3.0" android:checkedButton="@id/qqmail_file_explorer_tab2_rb">
+        <RadioButton android:gravity="center" android:id="@id/qqmail_file_explorer_tab1_rb" android:background="@drawable/file_explorer_tab_left" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/plugin_qqmail_file_explorer_root_tag" android:layout_weight="1.0" />
+        <RadioButton android:gravity="center" android:id="@id/qqmail_file_explorer_tab2_rb" android:background="@drawable/file_explorer_tab_right" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/plugin_qqmail_file_explorer_sdcard_tag" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>

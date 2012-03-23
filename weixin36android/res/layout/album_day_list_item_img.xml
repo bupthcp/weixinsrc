@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/album_downloading_ll" android:background="@drawable/chatting_bg_view_black" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="240.0dip">
+        <ProgressBar android:id="@id/album_downloading_pb" android:layout_width="240.0dip" android:layout_height="240.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/select_bg_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_select_bg_downloading" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/album_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="240.0dip" android:layout_height="240.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/album_image" android:background="@color/blue" android:layout_width="240.0dip" android:layout_height="240.0dip" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="bottom|right|center" android:id="@id/album_like" android:background="@color/white" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="20.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

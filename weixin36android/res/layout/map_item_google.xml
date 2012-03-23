@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/locaion_arrow_tips_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/location_load_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="5.0dip" style="?android:attr/progressBarStyleSmallInverse" />
+        <TextView android:textSize="15.0dip" android:id="@id/location_tips" android:background="@drawable/location_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:minWidth="40.0dip" />
+    </FrameLayout>
+</LinearLayout>

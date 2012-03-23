@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTextSize">16.0dip</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+    <dimen name="SmallerTextSize">13.0dip</dimen>
+    <dimen name="LargestTextSize">30.0dip</dimen>
+    <dimen name="ChattingTextSize">16.0dip</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+    <dimen name="PreferenceItemHeight">42.0dip</dimen>
+    <dimen name="ConversationItemHeight">58.0dip</dimen>
+    <dimen name="LargeAvatarSize">56.0dip</dimen>
+</resources>

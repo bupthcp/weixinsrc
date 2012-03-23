@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/whatsnew_04" android:paddingLeft="10.0dip" android:paddingTop="50.0dip" android:paddingRight="10.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0dip" android:gravity="top|center" android:id="@id/mm_text_tv" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" android:text="@string/whats_news_title5" style="@style/whatsnews_bottom_style" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:src="@drawable/whatsnew_news" />
+                <TextView android:textSize="16.0dip" android:gravity="left" android:layout_marginLeft="15.0dip" android:text="@string/whats_news_item5a" style="@style/whatsnews_bottom_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="40.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:src="@drawable/whatsnew_mail" />
+                <TextView android:textSize="16.0dip" android:gravity="left" android:layout_marginLeft="15.0dip" android:text="@string/whats_news_item5b" style="@style/whatsnews_bottom_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="20.0dip" android:layout_marginBottom="40.0dip" android:text="@string/whats_news_item_tip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/whatsnews_bottom_style" />
+    </LinearLayout>
+    <com.tencent.mm.ui.chatting.ChattingAnimFrame android:id="@id/chatting_anim_iv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.tencent.mm.ui.chatting.ChattingAnimFrame>
+</FrameLayout>

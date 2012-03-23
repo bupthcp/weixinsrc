@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/settings_modify_email_new_email_et" android:inputType="textEmailAddress" style="@style/MMLineEditText" />
+            <View style="@style/MMLabelSplit" />
+            <TextView android:text="@string/settings_modify_email_addr_warning" android:layout_weight="1.0" style="@style/MMBriefText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

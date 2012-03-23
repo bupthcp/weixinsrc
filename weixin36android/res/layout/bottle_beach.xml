@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bottle_beach_bg_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.ui.bottle.BallonImageView android:id="@id/bottle_ballon_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_balloon" />
+        <ImageView android:id="@id/bottle_star_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_star" />
+        <com.tencent.mm.ui.bottle.MoonImageView android:layout_gravity="top|left|center" android:id="@id/bottle_moon_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.mm.ui.bottle.LightHouseImageView android:layout_gravity="top|right|center" android:id="@id/bottle_light_house_iv" android:background="@anim/bottle_light_house" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottle_board_frame" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:background="@drawable/bottle_board" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:weightSum="3.0">
+            <TextView android:text="@string/bottle_opt_throw" style="@style/bottleBoardText" />
+            <TextView android:text="@string/bottle_opt_pick" style="@style/bottleBoardText" />
+            <TextView android:text="@string/bottle_opt_list" style="@style/bottleBoardText" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:weightSum="3.0">
+            <ImageView android:id="@id/bottle_opt_throw_tv" android:src="@drawable/bottle_button_throw" style="@style/bottleBeachIcon" />
+            <ImageView android:id="@id/bottle_opt_pick_tv" android:src="@drawable/bottle_button_fish" style="@style/bottleBeachIcon" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/bottle_opt_list_tv" android:src="@drawable/bottle_button_list" style="@style/bottleBeachIcon" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/bottle_list_unread_tv" android:background="@drawable/tab_unread_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="10.0dip" android:text="@null" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottle_float_frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.ui.bottle.ThrowBottleAnimUI android:id="@id/bottle_throw_anim_lo" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.ui.bottle.ThrowBottleAnimUI android:id="@id/bottle_throw_anim_lo1" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="top|right|center" android:id="@id/bottle_close_frame_btn" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_close_frame_state" />
+    <com.tencent.mm.ui.bottle.SprayLayout android:layout_gravity="bottom|center" android:id="@id/bottle_spray_fl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bottle_spray_three_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_spray3" />
+        <ImageView android:id="@id/bottle_spray_two_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_spray2" />
+        <ImageView android:id="@id/bottle_spray_one_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_spray1" />
+    </com.tencent.mm.ui.bottle.SprayLayout>
+</FrameLayout>

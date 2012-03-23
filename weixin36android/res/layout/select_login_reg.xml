@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/copyright" />
+            <TextView android:textSize="@dimen/LargestTextSize" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+            <Button android:textSize="@dimen/TitleTextSize" android:id="@id/select_login_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/intro_existed_login" style="@style/MMLineActionButton" />
+            <View style="@style/MMSplit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_login_hint" style="@style/loginHint" />
+            <Button android:textSize="@dimen/TitleTextSize" android:textColor="@color/black" android:id="@id/select_register_btn" android:background="@drawable/btn_style_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/intro_create_account_qq" />
+            <View style="@style/MMSplit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_register_hint" style="@style/loginHint" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

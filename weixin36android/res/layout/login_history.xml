@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" style="@style/MMBody">
+        <LinearLayout android:orientation="horizontal" android:layout_marginLeft="5.0dip" style="@style/MMBlock">
+            <TextView android:layout_width="50.0dip" android:text="@string/login_id" style="@style/MMLogin" />
+            <TextView android:gravity="center_vertical" android:id="@id/login_account_auto" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" style="@style/MMLogin" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/login_input" android:layout_marginTop="8.0dip" style="@style/MMLineEditText">
+            <TextView android:textColor="@color/black" android:background="@null" android:layout_width="wrap_content" android:minWidth="50.0dip" android:text="@string/login_password_hint" style="@style/MMLineEditText" />
+            <EditText android:id="@id/login_password_et" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/login_password_tip" style="@style/MMLineEditPass" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/MMBlock">
+            <LinearLayout android:layout_width="wrap_content" style="@style/MMBlock">
+                <Button android:layout_gravity="bottom|left|center" android:id="@id/login_foget_btn" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:text="@string/login_foget_password" style="@style/RegUIHyperText" />
+                <Button android:layout_gravity="top|left|center" android:id="@id/login_create_account_btn" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:text="@string/login_create_new_account" style="@style/RegUIHyperText" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="1.0" />
+            <Button android:layout_gravity="right|center" android:id="@id/login_btn" android:background="@drawable/btn_style_one" android:layout_width="90.0dip" android:text="@string/login_login" style="@style/MMLineActionButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

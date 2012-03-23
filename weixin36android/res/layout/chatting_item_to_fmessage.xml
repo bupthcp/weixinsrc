@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/chatting_time_tv" style="@style/ChattingUISplit" />
+    <LinearLayout android:layout_width="fill_parent" style="@style/ChattingUIContent">
+        <ImageView android:id="@id/chatting_avatar_iv_card" android:focusable="false" android:visibility="gone" android:layout_marginTop="5.0dip" style="@style/ChattingUIAvatarFrom" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/chatfrom_bg_fmessage" android:layout_weight="1.0" style="@style/ChattingUIThumbnail">
+            <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/chatting_type_tv" android:padding="4.0dip" style="@style/ChattingUIFMessageText" />
+            <ImageView android:background="@drawable/seperator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/chatting_avatar_iv" android:background="@drawable/default_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                <LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/black" android:id="@id/chatting_nickname_tv" style="@style/ChattingUIFMessageText" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/chatting_source_tv" android:paddingRight="2.0dip" style="@style/ChattingUIFMessageText" />
+                        <TextView android:textSize="@dimen/SmallTextSize" android:textColor="#ff609c01" android:id="@id/chatting_username_tv" style="@style/ChattingUIFMessageText" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/chatting_showcontent_tv" style="@style/ChattingUIFMessageText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_plugings_disturb_on" android:key="settings_plugings_disturb_on" android:widgetLayout="@layout/mm_preference_radio" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_plugings_disturb_on_night" android:key="settings_plugings_disturb_on_night" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_plugings_disturb_off" android:key="settings_plugings_disturb_off" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/settings_plugings_disturb_time_tip" android:key="settings_plugings_disturb_time_tip" />
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/vertify_contact_content_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:shadowColor="#a0ffffff" android:shadowDx="1.2" android:shadowDy="1.2" />
+    <TextView android:textSize="16.0dip" android:id="@id/vertify_contact_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:shadowColor="#a0ffffff" android:shadowDx="1.2" android:shadowDy="1.2" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/chatfrom_bg_new_fmessage" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <ImageView android:id="@id/vertify_avatar_iv" android:focusable="false" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/default_avatar" android:scaleType="fitXY" style="@style/ChattingUIAvatarFrom" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/vertify_userName" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/contact_info_sex_iv" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/seperator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/vertify_dis_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_district" style="@style/MMFontPreferenceLarge" />
+                <TextView android:id="@id/vertify_weibo_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_weibo" style="@style/MMFontPreferenceLarge" />
+                <TextView android:id="@id/vertify_sign_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_signature" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+            <View android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/vertify_dis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_district" style="@style/MMFontPreferenceLarge" />
+                <TextView android:id="@id/vertify_weibo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_weibo" style="@style/MMFontPreferenceLarge" />
+                <TextView android:id="@id/vertify_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/contact_info_signature" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

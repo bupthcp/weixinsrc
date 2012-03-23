@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/settings_add_domainmail_et" android:hint="@string/settings_add_domainmail_hint" style="@style/MMLineEditText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

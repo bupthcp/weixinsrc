@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/smiley_item_bg_s" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip">
+        <ImageView android:id="@id/art_emoji_icon_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nav_title" android:background="@drawable/mmtitle_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMImageButton android:id="@id/title_btn4" android:background="@drawable/mm_title_btn_back" android:focusable="true" style="@style/MMTitleButton" />
+    <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/app_name" android:singleLine="true" android:shadowColor="#ff404040" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:visibility="visible" style="@style/MMTitleButton">
+        <ProgressBar android:id="@id/title_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        <com.tencent.mm.ui.MMImageButton android:id="@id/title_btn1" android:background="@drawable/mm_title_btn_right" android:focusable="true" style="@style/MMTitleButton" />
+    </LinearLayout>
+</LinearLayout>

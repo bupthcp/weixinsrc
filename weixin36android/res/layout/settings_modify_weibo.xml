@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <LinearLayout android:orientation="horizontal" style="@style/MMLineEditText">
+                <TextView android:textColor="@color/black" android:id="@id/weibo_at" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMLineEditText" />
+                <EditText android:id="@id/settings_modify_name_new_name_et" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMLineEditText" />
+            </LinearLayout>
+            <View style="@style/MMLabelSplit" />
+            <TextView android:id="@id/settings_modify_name_tip" android:text="@string/settings_modify_name_tip" android:layout_weight="1.0" style="@style/MMLineLabel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" style="@style/RoomInfoListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/group_chat_add_member_btn" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/room_add_member" style="@style/MMLineActionButton" />
+    <TextView android:gravity="center" android:id="@id/group_chat_add_member_tip_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/room_add_member_info_tip" style="@style/MMPreferenceTextSmall" />
+</LinearLayout>

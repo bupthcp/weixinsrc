@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/chatting_time_tv" style="@style/ChattingUISplit" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ChattingUIContent">
+        <ImageView android:id="@id/chatting_avatar_iv" android:focusable="false" android:visibility="gone" style="@style/ChattingUIAvatarFrom" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/chatting_user_tv" android:visibility="gone" style="@style/ChattingUISenderText" />
+            <FrameLayout android:background="@drawable/chatfrom_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/chatting_content_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/chatting_video_data_area" android:background="@drawable/chat_video_mask_from" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/chatting_size_iv" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="right" android:id="@id/chatting_length_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/chatting_status_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/chatting_download_progress_area" android:background="@drawable/mm_progress_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ProgressBar android:id="@id/chatting_download_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="9.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/progress_drawable" android:progressDrawable="@drawable/progress_drawable" android:minHeight="9.0dip" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+            <ImageView android:id="@id/chatting_stop_btn" android:background="@drawable/video_stop_download_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-12.0dip" />
+            <ImageView android:id="@id/chatting_continue_btn" android:background="@drawable/video_download_continue_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

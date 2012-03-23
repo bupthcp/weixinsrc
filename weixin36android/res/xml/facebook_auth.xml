@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/facebook_auth_bind_tip" android:key="facebook_auth_tip" />
+    <PreferenceCategory android:key="facebook_auth_cat" />
+    <Preference android:layout="@layout/facebook_btn" android:title="@string/facebook_auth_bind_btn_text" android:key="facebook_auth_bind_btn" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/facebook_auth_bound_account" android:key="facebook_auth_account" />
+    <PreferenceCategory android:key="facebook_auth_cat2" />
+    <Preference android:layout="@layout/normal_pref_btn" android:title="@string/facebook_auth_unbind_btn_text" android:key="facebook_auth_unbind_btn" android:widgetLayout="@layout/mm_preference_screen" />
+</PreferenceScreen>

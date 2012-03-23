@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/settings_modify_domainmail_et" style="@style/MMLineEditText" />
+            <View style="@style/MMLabelSplit" />
+            <TextView android:id="@id/settings_modify_domainmail_tv" android:text="@string/settings_modify_domainmail_tip" android:layout_weight="1.0" style="@style/MMBriefText" />
+            <View style="@style/MMLabelSplit" />
+            <Button android:id="@id/settings_confirmed_domainmail_send_btn" android:background="@drawable/btn_style_two" android:text="@string/settings_send_confirmed_domainmail_again" style="@style/MMLineButton" />
+            <View style="@style/MMLabelSplit" />
+            <Button android:id="@id/settings_domainmail_delete_btn" android:background="@drawable/btn_style_zero" android:text="@string/app_delete" style="@style/MMLineActionButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

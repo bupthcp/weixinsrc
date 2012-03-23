@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.contact.VerifyUserHeaderPreference android:layout="@layout/contact_info_header_verify" android:key="contact_info_header_vertfy" />
+    <PreferenceCategory android:key="contact_info_domainmail_cat" />
+    <Preference android:layout="@layout/install_btn" android:title="@string/contact_info_verify_accept" android:key="settings_add_btn" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.contact.NormalUserFooterPreference android:layout="@layout/contact_info_footer_normal" android:key="contact_info_footer_normal" />
+    <PreferenceCategory android:key="clear_lbs_info_cat" />
+    <com.tencent.mm.ui.contact.LbsUserFooterInfoPreference android:layout="@layout/contact_info_footer_lbs" android:key="clear_lbs_info" />
+</PreferenceScreen>

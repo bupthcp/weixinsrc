@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/w_mapView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/control_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="45.0dip">
+            <LinearLayout android:id="@id/location_my_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <ImageButton android:id="@id/location_here" android:background="@drawable/mm_trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/location_arrows" />
+                    <ImageView android:background="@drawable/location_arrows_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/locaion_arrow_tips_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/location_my_ll" android:layout_centerInParent="true">
+                <ProgressBar android:layout_gravity="center" android:id="@id/location_load_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="5.0dip" style="?android:attr/progressBarStyleSmallInverse" />
+                <TextView android:textSize="12.0dip" android:id="@id/location_tips" android:background="@drawable/location_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip" android:minWidth="40.0dip" android:text="" />
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

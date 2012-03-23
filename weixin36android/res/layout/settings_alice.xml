@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <LinearLayout android:orientation="vertical" android:id="@id/suggest_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:gravity="left|center" android:id="@id/suggest_username_btn" android:background="@drawable/suggestbtn" style="@style/MMLineButton" />
+                    <ImageView android:layout_gravity="right|center" android:background="@null" android:paddingRight="7.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_indicator" />
+                </FrameLayout>
+                <View style="@style/MMSplit" />
+                <TextView android:gravity="top|left|center" android:text="@string/regbyqq_reg_username_suggest_tip" android:height="70.0dip" style="@style/MMLineLabel" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/customize_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/regbyqqreg_account_et" android:hint="@string/modify_username_hint" style="@style/MMLineEditText" />
+                <View style="@style/MMSplit" />
+                <TextView android:gravity="top|left|center" android:text="@string/modify_username_detail" android:height="70.0dip" style="@style/MMLineLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

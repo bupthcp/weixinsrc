@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.contact.HelperHeaderPreference android:layout="@layout/contact_info_header_helper" android:key="contact_info_header_helper" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/contact_into_goto_floatbottle_str" android:key="contact_info_goto_floatbottle" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory android:key="contact_info_floatbottle_hide_cat" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/contact_info_clear_data" android:key="contact_info_floatbottle_clear_data" />
+    <PreferenceCategory android:key="contact_info_floatbottle_hide_cat2" />
+    <Preference android:layout="@layout/install_btn" android:title="@string/settings_plugins_install" android:key="contact_info_floatbottle_install" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/logout_btn" android:title="@string/settings_plugins_uninstall" android:key="contact_info_floatbottle_uninstall" android:widgetLayout="@layout/mm_preference_screen" />
+</PreferenceScreen>

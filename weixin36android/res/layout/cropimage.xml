@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cropimage_fl" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/cropimage_origin_iv" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:scaleType="matrix" />
+    <com.tencent.mm.ui.tools.FrameIV android:gravity="center" android:layout_gravity="center" android:id="@id/cropimage_frame" android:layout_width="312.0dip" android:layout_height="312.0dip" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/cropimage_iv" android:background="@drawable/mm_capture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cropimage_footer_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/mm_title" />
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/cropimage_rotate" android:visibility="gone" style="@style/RotateButton" />
+            <View android:layout_width="fill_parent" android:layout_weight="1.0" style="@style/MMSplit" />
+            <Button android:id="@id/cropimage_zoomout" style="@style/ZoomOutButton" />
+            <View android:layout_width="2.0dip" style="@style/MMSplit" />
+            <Button android:id="@id/cropimage_zoomin" style="@style/ZoomInButton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

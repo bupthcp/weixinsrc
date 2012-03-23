@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@id/bottle_throw_anim_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bottle_throw_bottle_iv" android:background="@drawable/bottle_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottle_type_voice" android:layout_x="0.0dip" android:layout_y="0.0dip" />
+    <TextView android:id="@id/bottle_throw_content_scale" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</AbsoluteLayout>

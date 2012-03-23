@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout android:gravity="center_horizontal" style="@style/MMBody">
+            <ImageView android:id="@id/setting_bind_moblie_state_icon" android:paddingBottom="33.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mobile_unbind_icon" />
+            <TextView android:gravity="center" android:id="@id/setting_bind_mobile_binded_mobile" android:background="@drawable/mobile_verify_hint_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" style="@style/MMBriefText" />
+            <TextView android:gravity="center" android:id="@id/setting_bind_mobile_unverify_mobile" android:background="@drawable/mobile_verify_hint_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:drawableLeft="@drawable/mobile_unverify_icon" style="@style/MMBriefText" />
+            <TextView android:id="@id/setting_bind_mobile_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/bind_mcontact_hint" android:lineSpacingExtra="4.0dip" style="@style/MMBriefText" />
+            <Button android:textSize="20.0dip" android:id="@id/setting_bind_mobile_bind_btn" android:visibility="gone" android:text="@string/bind_mcontact_bind_btn_text" style="@style/MMLineActionButton" />
+            <Button android:textSize="20.0dip" android:id="@id/setting_bind_mobile_verify_btn" android:visibility="gone" android:text="@string/bind_mcontact_verify_btn_text" style="@style/MMLineActionButton" />
+            <Button android:textSize="20.0dip" android:id="@id/setting_bind_mobile_friend_btn" android:visibility="gone" android:layout_marginBottom="10.0dip" android:text="@string/bind_mcontact_friend_btn_text" style="@style/MMLineActionButton" />
+            <Button android:textSize="20.0dip" android:textColor="#ff4a4a4a" android:id="@id/setting_bind_mobile_unbind_btn" android:background="@drawable/btn_style_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bind_mcontact_unbind_btn_text" />
+            <Button android:textSize="20.0dip" android:textColor="#ff4a4a4a" android:id="@id/setting_bind_mobile_del_btn" android:background="@drawable/btn_style_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bind_mcontact_del_btn_text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

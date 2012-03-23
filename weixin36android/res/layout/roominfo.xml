@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/roominfo_member_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00ffffff" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/room_msg_switch_cb" android:visibility="gone" android:layout_marginLeft="30.0dip" android:text="@string/room_rev_msg" style="@style/MMFontTitleInList" />
+        <TextView android:id="@id/room_add_member_hint" android:visibility="gone" android:layout_marginLeft="30.0dip" android:text="@string/room_add_member_hint" style="@style/MMFontTitleInList" />
+    </LinearLayout>
+</LinearLayout>

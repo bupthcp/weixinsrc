@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.Updater android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/getupdateinfo" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip">
+        <ProgressBar android:id="@id/update_tips_pb" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+        <View style="@style/MMSplit" />
+        <TextView android:gravity="center_vertical" android:autoLink="web" android:id="@id/update_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_getting_updateinfo" />
+    </LinearLayout>
+    <ScrollView android:id="@id/getupdatepack" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="300.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/getupdatepack" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:autoLink="web" android:id="@id/update_info_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:id="@id/doget_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_now" android:layout_weight="1.0" />
+                <Button android:id="@id/docancelget_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.tencent.mm.ui.Updater>

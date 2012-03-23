@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_active_time_full" android:key="settings_active_time_full" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_active_begin_time" android:key="settings_active_begin_time" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_active_end_time" android:key="settings_active_end_time" />
+</PreferenceScreen>

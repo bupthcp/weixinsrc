@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.ChoicePreference android:layout="@layout/mm_preference_null" android:title="@string/settings_sex" android:key="settings_sex" mm:entries="@array/sex" mm:entryValues="@array/sex_id" />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_district" android:key="settings_district" />
+    <com.tencent.mm.ui.KeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_signature" android:key="settings_signature" />
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/bottle_settings_change_info_tip" android:key="bottle_settings_change_avatar_tip" />
+</PreferenceScreen>

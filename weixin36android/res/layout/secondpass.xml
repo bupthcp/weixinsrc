@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" style="@style/MMBody">
+        <EditText android:id="@id/secondpass_et" android:singleLine="true" style="@style/MMLineEditPass" />
+    </LinearLayout>
+</LinearLayout>

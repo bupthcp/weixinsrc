@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="custom_art_emoji">
+        <item>favorite</item>
+        <item>bless</item>
+        <item>love</item>
+        <item>funny</item>
+        <item>popular</item>
+        <item>stuff</item>
+    </string-array>
+</resources>

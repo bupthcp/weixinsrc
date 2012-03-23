@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/recommend_friend_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" style="@style/ChattingUIContent">
+            <ImageView android:id="@id/send_card_avatar_iv_card" android:background="@drawable/default_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <TextView android:textColor="@color/black" android:id="@id/send_card_nickname_tv" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/send_card_avatar_iv_card" style="@style/ChattingUIFMessageText" />
+            <TextView android:textSize="@dimen/SmallTextSize" android:id="@id/send_card_source_tv" android:paddingRight="2.0dip" android:visibility="visible" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/send_card_avatar_iv_card" android:layout_below="@id/send_card_nickname_tv" style="@style/ChattingUIFMessageText" />
+            <TextView android:textSize="@dimen/SmallTextSize" android:textColor="#ff609c01" android:id="@id/send_card_username_tv" android:layout_toRightOf="@id/send_card_source_tv" android:layout_below="@id/send_card_nickname_tv" style="@style/ChattingUIFMessageText" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/SmallTextSize" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/send_card_tip" />
+</LinearLayout>

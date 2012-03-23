@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" style="@style/RoomInfoListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/BasicTextSize" android:id="@id/contact_count" android:layout_height="wrap_content" style="@style/MMFontPreferenceSmall" />
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/chattingroom_mute_tip" android:background="@drawable/btn_style_two" android:layout_width="80.0dip" android:layout_height="40.0dip">
+        <TextView android:textSize="@dimen/BasicTextSize" android:textColor="@color/black" android:gravity="center" android:id="@id/chattingroom_mute_tv" android:layout_height="wrap_content" android:text="@string/room_mute" style="@style/MMFontPreferenceSmall" />
+    </LinearLayout>
+</LinearLayout>

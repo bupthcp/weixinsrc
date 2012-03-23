@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="custom_art_emoji">
+        <item>我收藏的</item>
+        <item>祝福</item>
+        <item>愛情</item>
+        <item>搞怪</item>
+        <item>流行</item>
+        <item>物品</item>
+    </string-array>
+</resources>

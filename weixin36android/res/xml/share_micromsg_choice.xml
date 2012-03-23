@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.IconPreference android:title="@string/self_qrcode_show_to_qqwb" android:key="share_micromsg_qqwb" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/self_qrcode_show_to_qzone" android:key="share_micromsg_qzone" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/self_qrcode_show_to_sina" android:key="share_micromsg_to_sina" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/self_qrcode_show_to_fuckbook" android:key="share_micromsg_to_fuckbook" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+        <EditText android:id="@id/add_gmail_account_addr_et" android:hint="@string/add_gmail_account_addr_hint" style="@style/MMLineEditText" />
+        <View style="@style/MMLabelSplit" />
+        <EditText android:id="@id/add_gmail_account_psw_et" android:hint="@string/add_gmail_account_psw_hint" style="@style/MMLineEditPass" />
+        <View style="@style/MMLabelSplit" />
+        <TextView android:gravity="center" android:id="@id/add_gmail_account_next_btn" android:background="@drawable/btn_style_one" android:text="@string/add_gmail_account_next" style="@style/MMLineActionButton" />
+    </LinearLayout>
+</LinearLayout>

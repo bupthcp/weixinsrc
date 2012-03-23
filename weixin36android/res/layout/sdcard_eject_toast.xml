@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/toast_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nosdcard_pic" />
+    <TextView android:id="@id/sdcard_toast_text" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+        <EditText android:id="@id/login_account_auto" android:hint="@string/login_account_hint" style="@style/MMLineEditText" />
+        <View style="@style/MMLabelSplit" />
+        <EditText android:id="@id/login_password_et" android:hint="@string/login_password_hint" style="@style/MMLineEditPass" />
+        <View style="@style/MMLabelSplit" />
+        <LinearLayout android:orientation="horizontal" style="@style/MMBlock">
+            <Button android:layout_gravity="bottom|left|center" android:id="@id/login_foget_btn" android:text="@string/login_foget_password" style="@style/RegUIHyperText" />
+            <View android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/login_btn" android:background="@drawable/btn_style_one" android:layout_width="90.0dip" android:text="@string/login_login" style="@style/MMLineActionButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

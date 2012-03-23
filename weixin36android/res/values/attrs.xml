@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="icon" format="reference" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+    <attr name="src">
+        <enum name="mobile" value="0" />
+        <enum name="total" value="1" />
+    </attr>
+</resources>

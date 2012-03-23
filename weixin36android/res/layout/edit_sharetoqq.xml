@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/navpage" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:padding="10.0dip" style="@style/NavPage">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mm_edit" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:gravity="top" android:id="@id/content" android:background="@null" android:layout_width="fill_parent" android:layout_height="130.0dip" android:singleLine="false" android:layout_weight="1.0" style="@style/MMEditText" />
+            <TextView android:layout_gravity="right" android:id="@id/wordcount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="20.0dip" android:id="@id/qrcode_share_btn" android:layout_marginTop="10.0dip" android:text="@string/qrcode_show_btn" style="@style/MMLineActionButton" />
+    </LinearLayout>
+</ScrollView>

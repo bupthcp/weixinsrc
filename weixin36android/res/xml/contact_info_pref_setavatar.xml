@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.contact.NormalUserHeaderPreference android:layout="@layout/contact_info_header_normal" android:key="contact_info_header_normal" />
+    <Preference android:layout="@layout/setavatar_btn" android:title="@string/contact_info_set_avatar" android:key="contact_info_setavatar" />
+</PreferenceScreen>

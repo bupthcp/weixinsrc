@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BasicTextSize">16.0dip</dimen>
+    <dimen name="TitleTextSize">19.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+</resources>

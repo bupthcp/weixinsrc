@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory />
+    <com.tencent.mm.ui.RoomInfoContPreference android:layout="@layout/roominfo_preference" android:title="@string/app_name" android:key="roominfo_contact" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/room_name" android:key="room_name" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/room_save_to_contact" android:key="room_save_to_contact" android:widgetLayout="@layout/mm_preference_widget_empty" />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/room_msg_close_notify" android:key="room_msg_notify" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/room_set_chatting_background" android:key="room_set_chatting_background" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/room_clear_chatting_history" android:key="room_clear_chatting_history" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/logout_btn" android:title="@string/room_del_quit" android:key="room_del_quit" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <PreferenceCategory />
+</PreferenceScreen>

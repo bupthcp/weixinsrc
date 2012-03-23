@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.setting.PersonalPreference android:layout="@layout/personal_preference2" android:title="@string/settings_account" android:key="settings_account" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/signature_preference" android:title="@string/settings_signature" android:key="settings_signature" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_account_info" android:key="settings_account_info" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.SwitchKeyValuePreference android:layout="@layout/mm_preference" android:title="@string/settings_bind_mobile_title" android:key="settings_bind_mobile" android:widgetLayout="@layout/mm_preference_submenu" />
+    <CheckBoxPreference android:layout="@layout/mm_preference" android:title="@string/settings_tweibo_open" android:key="settings_tweibo_open" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_skin" android:key="settings_skin" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_chatting_bg" android:key="settings_chatting_bg" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_about_system" android:key="settings_about_system" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/settings_plugins" android:key="settings_plugins" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_about_blacklist" android:key="settings_about_blacklist" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_about_privacy" android:key="settings_about_privacy" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/settings_system_notice" android:key="settings_system_notice" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_push_software" android:key="settings_push_software" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_traffic_statistic" android:key="settings_traffic_statistic" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_market_ratings" android:key="settings_market_ratings" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_feedback" android:key="settings_feedback" android:widgetLayout="@layout/mm_preference_screen" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/settings_about_micromsg" android:key="settings_about_micromsg" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_reset" android:key="settings_reset" android:widgetLayout="@layout/mm_preference_widget_empty" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/logout_btn" android:title="@string/settings_logout" android:key="settings_logout" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+</PreferenceScreen>

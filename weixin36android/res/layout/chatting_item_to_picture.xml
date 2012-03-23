@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/chatting_time_tv" style="@style/ChattingUISplit" />
+    <LinearLayout style="@style/ChattingUIContent">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="right" android:id="@id/chatting_user_tv" android:visibility="gone" style="@style/ChattingUISenderText" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/chatting_state_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <FrameLayout android:background="@drawable/chatto_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/chatting_content_iv" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ProgressBar android:id="@id/uploading_pb" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+                        <TextView android:textColor="#ffffffff" android:id="@id/uploading_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/chatting_avatar_iv" android:visibility="gone" style="@style/ChattingUIAvatarTo" />
+    </LinearLayout>
+</LinearLayout>

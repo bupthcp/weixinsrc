@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:minHeight="120.0dip" style="@style/ReaderAppItemFirst"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/reader_first_item_cover_iv" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/reader_first_item_cover_pb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+    <TextView android:textSize="@dimen/LargeTextSize" android:textColor="@color/white" android:gravity="left|center" android:layout_gravity="bottom" android:id="@id/reader_first_item_title_tv" android:background="#a0000000" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:singleLine="true" />
+</FrameLayout>

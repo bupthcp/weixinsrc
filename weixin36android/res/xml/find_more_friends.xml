@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.IconPreference android:title="@string/find_friends_by_qrcode" android:key="find_friends_by_qrcode" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/contact_search_title" android:key="find_friends_by_micromsg" />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.IconPreference android:title="@string/find_friends_by_qq" android:key="find_friends_by_qq" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/find_friends_by_mobile" android:key="find_friends_by_mobile" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/find_friends_by_facebook" android:key="find_friends_by_facebook" />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.IconPreference android:title="@string/nearby_friend_title" android:key="find_friends_by_near" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/shake_report_title" android:key="find_friends_by_shake" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/bottle_beach_title" android:key="voice_bottle" />
+    <PreferenceCategory android:key="find_friends_cat" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/album_dyna_photo_ui_title" android:key="album_dyna_photo_ui_title" />
+    <com.tencent.mm.ui.IconPreference android:title="@string/send_qrcode_to_microblog" android:key="send_card_to_microblog" />
+    <PreferenceCategory />
+</PreferenceScreen>

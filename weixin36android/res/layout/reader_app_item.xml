@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/LargeTextSize" android:textColor="@color/darkgrey" android:id="@id/reader_item_title_tv" style="@style/ReaderAppItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

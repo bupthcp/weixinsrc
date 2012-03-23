@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l001" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l003" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l004" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l005" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l006" />
+    <item android:duration="300" android:drawable="@drawable/bottle_sandy_light_m000" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_m001" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_m002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r006" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r005" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r004" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r003" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r001" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r001" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r003" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r004" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r005" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_r006" />
+    <item android:duration="300" android:drawable="@drawable/bottle_sandy_light_m000" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_m001" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_m002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l006" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l005" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l004" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l003" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l002" />
+    <item android:duration="1000" android:drawable="@drawable/bottle_sandy_light_l001" />
+</animation-list>

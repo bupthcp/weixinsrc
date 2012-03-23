@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/settings_new_msg_notification" android:key="settings_new_msg_notification" />
+    <CheckBoxPreference android:title="@string/settings_sound" android:key="settings_sound" android:dependency="settings_new_msg_notification" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/settings_shake" android:key="settings_shake" android:dependency="settings_new_msg_notification" android:defaultValue="true" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_active_time" android:key="settings_active_time" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_plugings_notify" android:key="settings_plugings_notify" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/settings_plugings_notify_tip" android:key="settings_plugings_notify_tip" />
+</PreferenceScreen>

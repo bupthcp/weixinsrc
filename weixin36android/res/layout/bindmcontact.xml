@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:id="@id/setting_bind_mobile_binded_mobile" android:text="@string/bind_mcontact_input_mobile_hint" style="@style/MMLineLabel" />
+            <View style="@style/MMLabelSplit" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/MMBody">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/country_code_ll" android:background="@drawable/mm_edit" android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/country_code" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/country_normal_code" android:singleLine="true" />
+                    <TextView android:textSize="8.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/country_name" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/country_normal_name" android:singleLine="true" />
+                </LinearLayout>
+                <EditText android:id="@id/bind_mcontact_mobile" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/bind_mcontact_your_mobile" android:inputType="phone" style="@style/MMLineEditText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

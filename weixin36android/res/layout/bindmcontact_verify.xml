@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:id="@id/bind_mcontact_verify_hint" android:text="@string/bind_mcontact_input_verify_hint" style="@style/MMLineLabel" />
+            <View style="@style/MMLabelSplit" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/bind_mcontact_verify_num" android:layout_marginRight="8.0dip" android:layout_weight="1.0" android:inputType="phone" style="@style/MMLineEditText" />
+                <Button android:id="@id/bind_mcontact_verify_btn" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/bind_mcontact_next_btn_text" style="@style/MMLineActionButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

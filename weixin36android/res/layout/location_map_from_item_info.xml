@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/control_id" android:layout_width="320.0dip" android:layout_height="480.0dip">
+        <LinearLayout android:id="@id/location_my_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageButton android:id="@id/location_here" android:background="@drawable/mm_trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/location_arrows" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/locaion_arrow_tips_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/location_my_ll" android:layout_centerInParent="true">
+            <ProgressBar android:layout_gravity="center" android:id="@id/location_load_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="5.0dip" style="?android:attr/progressBarStyleSmallInverse" />
+            <TextView android:id="@id/location_tips" android:background="@drawable/location_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:minWidth="40.0dip" android:text="" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

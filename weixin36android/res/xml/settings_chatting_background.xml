@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_chatting_bg_select_bg" android:key="settings_chatting_bg_select_bg" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_chatting_bg_select_from_album" android:key="settings_chatting_bg_select_from_album" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_chatting_bg_take_photo" android:key="settings_chatting_bg_take_photo" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/normal_pref_btn" android:title="@string/settings_chatting_bg_apply_to_all" android:key="settings_chatting_bg_apply_to_all" android:widgetLayout="@layout/mm_preference_screen" />
+</PreferenceScreen>

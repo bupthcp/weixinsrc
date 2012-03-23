@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMPullDownView android:id="@id/album_pull_down_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/album_comments_list" android:background="@null" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/mm_chat_listitem" android:transcriptMode="alwaysScroll" android:cacheColorHint="#00000000" android:divider="@null" />
+    </com.tencent.mm.ui.MMPullDownView>
+</LinearLayout>
