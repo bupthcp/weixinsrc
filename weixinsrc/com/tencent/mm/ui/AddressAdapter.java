@@ -65,8 +65,8 @@ _L1:
         g = s1;
         j = i1;
         h = new LinkedList();
-        o = b.b(0x7f08001c);
-        p = b.b(0x7f08001d);
+        o = b.b(0x7f08001c);//mm_list_textcolor_one
+        p = b.b(0x7f08001d);//mm_list_textcolor_spuser
     }
 
     private String b(Contact contact)
@@ -448,13 +448,13 @@ label0:
         {
             view = View.inflate(b, 0x7f030042, null); //contact_item
             viewholder = new ViewHolder();
-            viewholder.b = (TextView)view.findViewById(0x7f0700fc);
-            viewholder.a = (ImageView)view.findViewById(0x7f0700fe);
-            viewholder.c = (TextView)view.findViewById(0x7f0700ff);
-            viewholder.f = (ImageView)view.findViewById(0x7f070100);
-            viewholder.g = (CheckBox)view.findViewById(0x7f070103);
-            viewholder.d = (TextView)view.findViewById(0x7f070101);
-            viewholder.e = (TextView)view.findViewById(0x7f070102);
+            viewholder.b = (TextView)view.findViewById(0x7f0700fc);//contactitem_catalog
+            viewholder.a = (ImageView)view.findViewById(0x7f0700fe);//contactitem_avatar_iv
+            viewholder.c = (TextView)view.findViewById(0x7f0700ff);//contactitem_nick
+            viewholder.f = (ImageView)view.findViewById(0x7f070100);//contactitem_icon
+            viewholder.g = (CheckBox)view.findViewById(0x7f070103);//contactitem_select_cb
+            viewholder.d = (TextView)view.findViewById(0x7f070101);//contactitem_account
+            viewholder.e = (TextView)view.findViewById(0x7f070102);//contactitem_signature
             view.setTag(viewholder);
         } else
         {
@@ -523,7 +523,7 @@ label0:
         s1 = contact1.s();
         if(s1.toLowerCase().endsWith("@t.qq.com") || ContactStorageLogic.h(contact1))
         {
-            imageview.setImageDrawable(b.a(0x7f020143));
+            imageview.setImageDrawable(b.a(0x7f020143)); //icon_tencent_weibo
             imageview.setVisibility(0);
         } else
         {
