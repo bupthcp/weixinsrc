@@ -150,26 +150,26 @@ _L3:
            goto _L1 _L2 _L3 _L4
 _L1:
         if((i1 & 4) == 0)
-            view1.setBackgroundDrawable(h.a(0x7f0201fc));
+            view1.setBackgroundDrawable(h.a(0x7f0201fc));//preference_item
 _L6:
         return view1;
 _L2:
         int k1;
         if(l == 0)
-            k1 = 0x7f020201;
+            k1 = 0x7f020201;//preference_top_item
         else
-            k1 = 0x7f0201fb;
+            k1 = 0x7f0201fb;//preference_first_item
         view1.setBackgroundDrawable(h.a(k1));
         continue; /* Loop/switch isn't completed */
 _L3:
-        view1.setBackgroundDrawable(h.a(0x7f0201fd));
+        view1.setBackgroundDrawable(h.a(0x7f0201fd));//preference_last_item
         continue; /* Loop/switch isn't completed */
 _L4:
         int j1;
         if(l == 0)
-            j1 = 0x7f0201fe;
+            j1 = 0x7f0201fe;//preference_one_item
         else
-            j1 = 0x7f020200;
+            j1 = 0x7f020200;//preference_single_item
         view1.setBackgroundDrawable(h.a(j1));
         if(true) goto _L6; else goto _L5
 _L5:
@@ -193,7 +193,7 @@ _L1:
 _L2:
         if(i.length == 1)
         {
-            if(((Preference)b.get(l)).getLayoutResource() == 0x7f030076)
+            if(((Preference)b.get(l)).getLayoutResource() == 0x7f030076)//mm_preference
                 i[l] = 3;
             else
                 i[l] = 4;

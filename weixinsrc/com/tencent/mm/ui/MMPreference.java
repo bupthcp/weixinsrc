@@ -40,7 +40,7 @@ public abstract class MMPreference extends MMActivity
 
     protected int a()
     {
-        return 0x7f03008a;
+        return 0x7f03008a;//mm_preference_list_content
     }
 
     public boolean a(Preference preference)

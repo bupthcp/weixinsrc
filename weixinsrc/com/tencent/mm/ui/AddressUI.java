@@ -1086,7 +1086,7 @@ _L5:
         public final void a(String s1)
         {
             int i1 = 0;
-            if(!a.getString(0x7f0a0043).equals(s1)) goto _L2; else goto _L1
+            if(!a.getString(0x7f0a0043).equals(s1)) goto _L2; else goto _L1 //scroll_bar_search
 _L1:
             AddressUI.k(a).setSelection(i1);
 _L4:

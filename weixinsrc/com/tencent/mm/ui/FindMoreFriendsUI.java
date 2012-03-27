@@ -52,7 +52,7 @@ public class FindMoreFriendsUI extends MMPreference
     {
         boolean flag = true;
         a.a();
-        a.a(0x7f050018);
+        a.a(0x7f050018);//find_more_friends  
         e = Util.b((Boolean)MMCore.f().f().a(44));
         boolean flag1;
         IconPreference iconpreference;
@@ -66,7 +66,7 @@ public class FindMoreFriendsUI extends MMPreference
             flag1 = flag;
         else
             flag1 = false;
-        iconpreference = (IconPreference)a.a("find_friends_by_near");
+        iconpreference = (IconPreference)a.a("find_friends_by_near");  //onCreate:a=q() : MMPreference q() MMPreferenceAdapter.a(String s)
         if(iconpreference != null)
         {
             IconPreference iconpreference2;
@@ -84,7 +84,7 @@ public class FindMoreFriendsUI extends MMPreference
             if(!flag1)
                 a.b(iconpreference);
             else
-                iconpreference.a(a(0x7f020123));
+                iconpreference.a(a(0x7f020123));  
         }
         iconpreference1 = (IconPreference)a.a("find_friends_by_qrcode");
         if(iconpreference1 != null)
@@ -273,10 +273,10 @@ public class FindMoreFriendsUI extends MMPreference
     public void onCreate(Bundle bundle)
     {
         super.onCreate(bundle);
-        d(0x7f0a02a2);
+        d(0x7f0a02a2);//find_more_friends_title
         a = q();
-        d = View.inflate(this, 0x7f03005a, null);
-        c = (CheckBox)d.findViewById(0x7f070137);
+        d = View.inflate(this, 0x7f03005a, null);//lbs_open_dialog_view
+        c = (CheckBox)d.findViewById(0x7f070137);//lbs_open_dialog_cb
         c.setChecked(false);
     }
 
